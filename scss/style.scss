@@ -67,7 +67,7 @@ body {
 
 .header-textbox {
     width: 590px;
-    margin: 0 auto;
+    margin: 100px auto;
     h1 {
         color: #fff;
         font-family: Raleway;
@@ -96,6 +96,7 @@ body {
     }
     a {
         // Style for "button"
+        text-decoration: none;
         margin: 53px auto;
         width: 170px;
         height: 53px;
@@ -111,20 +112,16 @@ body {
         line-height: 53px;
         text-transform: uppercase;
         text-align: center;
-        //    display: block;
-        //    text-decoration: none;
-        //    color: #6c6c6c;
-        //    font-size: 36px;
-        //    font-weight: 700;
-        //    padding: 10px 13px;
     }
     a:hover {
         color: #212121;
-        padding-bottom: 1px;
+        padding-bottom: 2px;
         border-bottom: 1px solid #212121;
+
     }
     a:active {
         color: #212121;
         border-bottom: 2px solid #212121;
+        margin: 54px auto;
     }
 }

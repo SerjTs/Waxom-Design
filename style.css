@@ -53,7 +53,7 @@ body {
 
 .header-textbox {
   width: 590px;
-  margin: 0 auto; }
+  margin: 100px auto; }
   .header-textbox h1 {
     color: #fff;
     font-family: Raleway;
@@ -78,6 +78,7 @@ body {
     line-height: 24px;
     text-align: center; }
   .header-textbox a {
+    text-decoration: none;
     margin: 53px auto;
     width: 170px;
     height: 53px;
@@ -94,8 +95,9 @@ body {
     text-align: center; }
   .header-textbox a:hover {
     color: #212121;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     border-bottom: 1px solid #212121; }
   .header-textbox a:active {
     color: #212121;
-    border-bottom: 2px solid #212121; }
+    border-bottom: 2px solid #212121;
+    margin: 54px auto; }

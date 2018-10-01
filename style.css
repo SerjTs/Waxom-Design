@@ -15,7 +15,8 @@ body {
   background-image: url(pic/photo.jpg);
   box-shadow: inset 0px 0px 0px 1024px rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
-  height: 1024px; }
+  height: 1024px;
+  position: relative; }
 
 .navigation {
   padding-top: 40px;
@@ -51,6 +52,9 @@ body {
       font-size: 14px;
       font-weight: 300;
       margin-left: 30px; }
+
+.icon-cart {
+  margin-left: 40px; }
 
 .header-textbox {
   width: 590px;
@@ -104,3 +108,27 @@ body {
     border-bottom: 2px solid #212121;
     margin: 54px auto;
     background-color: #7e6d5d; }
+
+.arrow {
+  width: 40px;
+  height: 73px; }
+
+.left-arrow {
+  position: absolute;
+  top: 475px;
+  left: 150px;
+  background-image: url(pic/left_light.png); }
+  .left-arrow:hover {
+    background-image: url(pic/left_dark.png); }
+  .left-arrow:active {
+    top: 476px; }
+
+.right-arrow {
+  position: absolute;
+  top: 475px;
+  right: 150px;
+  background-image: url(pic/right_light.png); }
+  .right-arrow:hover {
+    background-image: url(pic/right_dark.png); }
+  .right-arrow:active {
+    top: 476px; }

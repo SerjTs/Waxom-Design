@@ -67,7 +67,8 @@ body {
 
 .header-textbox {
     width: 590px;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-top: -100px;
     h1 {
         color: #fff;
         font-family: Raleway;
@@ -123,5 +124,6 @@ body {
         color: #212121;
         border-bottom: 2px solid #212121;
         margin: 54px auto;
+        background-color: darken(#998675, 10%)
     }
 }

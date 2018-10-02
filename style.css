@@ -101,13 +101,13 @@ body {
     text-align: center; }
   .header-textbox a:hover {
     color: #212121;
-    padding-bottom: 2px;
     border-bottom: 1px solid #212121; }
   .header-textbox a:active {
-    color: #212121;
-    border-bottom: 2px solid #212121;
+    color: #000000;
+    border-bottom: 1px solid #212121;
     margin: 54px auto;
-    background-color: #7e6d5d; }
+    background-color: #7e6d5d;
+    box-shadow: inset 0 -3px 0 #574b42; }
 
 .arrow {
   width: 40px;

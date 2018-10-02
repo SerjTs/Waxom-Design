@@ -159,13 +159,18 @@ body {
   opacity: 0.5; }
 
 .circle:hover {
-  width: 13px;
-  height: 13px;
+  width: 07px;
+  height: 07px;
   border: 2px solid #d3c1ad;
-  background-color: #fff; }
+  background-color: #212121; }
 
 .circle_active {
   width: 13px;
   height: 13px;
   border: 2px solid #d3c1ad;
   background-color: #212121; }
+  .circle_active:hover {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #d3c1ad;
+    background-color: #fff; }

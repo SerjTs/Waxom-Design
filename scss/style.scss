@@ -53,7 +53,6 @@ body {
     li {
         list-style-type: none;
             margin-top: 23px;
-
         a {
             text-decoration: none;
             width: 42px;
@@ -64,8 +63,21 @@ body {
             font-weight: 300;
             margin-left: 30px;
         }
+        a:hover {
+            color: #c7b299;
+        }
+        a:active {
+            color: #b79c7b;
+            top: 2px;
+        }
+
     }
 }
+
+.menu .active {
+    color: #c7b299;
+}
+
 .icon-cart {
     margin-left: 40px;
 }
@@ -121,16 +133,14 @@ body {
     a:hover {
         color: #212121;
         border-bottom: 1px solid #212121;
-
     }
     a:active {
         color: #000000;
         border-bottom: 1px solid #212121;
         margin: 54px auto;
-        background-color: darken(#998675, 10%);
-        box-shadow: inset 0 -3px 0 #574b42;
     }
 }
+
 
 .arrow {
     width: 40px;
@@ -162,7 +172,6 @@ body {
         top: 476px;
     }
 }
-
 
 
 .slides {

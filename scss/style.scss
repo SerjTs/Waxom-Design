@@ -1,0 +1,217 @@
+$main-width: 1920px;
+
+@font-face {
+    font-family: 'Montserrat Ultra Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Ultra Light'), url('Montserrat-UltraLight.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: $main-width;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(pic/photo.jpg);
+	box-shadow: inset 0px 0px 0px 1024px rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    height: 1024px;
+    position: relative;
+}
+
+.navigation {
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+.logotip {
+    display: flex;
+    text-decoration: none;
+    width: 64px;
+    height: 56px;
+    p {
+        // Style for "Waxom"
+        color: #fff;
+        font-family: Raleway;
+        font-size: 34px;
+        font-weight: 400;
+        letter-spacing: -1.36px;
+        margin-top: 10px;
+    }
+}
+
+.menu {
+    display: flex;
+    li {
+        list-style-type: none;
+            margin-top: 23px;
+        a {
+            text-decoration: none;
+            width: 42px;
+            height: 10px;
+            color: #fff;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 30px;
+        }
+        a:hover {
+            color: #c7b299;
+        }
+        a:active {
+            color: #b79c7b;
+            top: 2px;
+        }
+
+    }
+}
+
+.menu .active {
+    color: #c7b299;
+}
+
+.icon-cart {
+    margin-left: 40px;
+}
+.header-textbox {
+    width: 590px;
+    margin: 0 auto;
+    margin-top: -100px;
+    h1 {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+        margin: 10px 0;
+    } 
+    h2 {
+        display: block;
+        margin-top: 380px;
+        color: #fff;
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+    }
+    p {
+        height: 39px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    a {
+        // Style for "button"
+        text-decoration: none;
+        margin: 53px auto;
+        width: 170px;
+        height: 53px;
+        box-shadow: inset 0 -3px 0 #736357;
+        border-radius: 3px;
+        background-color: #998675;
+        display: block;
+        // Style for "Get Starte"
+        color: #fff;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 53px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    a:hover {
+        color: #212121;
+        border-bottom: 1px solid #212121;
+    }
+    a:active {
+        color: #000000;
+        border-bottom: 1px solid #212121;
+        margin: 54px auto;
+    }
+}
+
+
+.arrow {
+    width: 40px;
+    height: 73px;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 475px;
+    left: 150px;
+    background-image: url(pic/left_light.png);
+    &:hover {
+        background-image: url(pic/left_dark.png);
+    }
+    &:active {
+        top: 476px;
+    }
+}
+
+.right-arrow {
+    position: absolute;
+    top: 475px;
+    right: 150px;
+    background-image: url(pic/right_light.png);
+    &:hover {
+        background-image: url(pic/right_dark.png);
+    }
+    &:active {
+        top: 476px;
+    }
+}
+.slides {
+    display: flex;
+    position: absolute;
+    top: 969px;    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+.circle:hover {
+    width: 07px;
+    height: 07px;
+    border: 2px solid #d3c1ad;
+    background-color: #212121;
+}
+.circle_active {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #d3c1ad;
+    background-color: #212121;
+    &:hover {
+        width: 13px;
+        height: 13px;
+        border: 2px solid #d3c1ad;
+        background-color: #fff;
+    }
+}
+
+
+
+.services {
+    
+}

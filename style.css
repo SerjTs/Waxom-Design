@@ -195,9 +195,9 @@ body {
     width: 266px;
     height: 21px;
     color: #555;
-    font-family: "Raleway - Semi Bold";
+    font-family: Raleway;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 19px; }
   .services p {
@@ -209,7 +209,8 @@ body {
     font-weight: 300;
     line-height: 24px;
     text-align: center;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    letter-spacing: -0.2px; }
   .services span {
     width: 70px;
     height: 3px;
@@ -226,3 +227,41 @@ body {
     color: #c7b299; }
   .services .active span {
     background-color: #c7b299; }
+
+.Waxom_Realization {
+  width: 1920px;
+  position: relative; }
+  .Waxom_Realization h2 {
+    width: 500px;
+    color: #555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 83px auto 24px auto; }
+  .Waxom_Realization p {
+    width: 758px;
+    height: 43px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -0.2px; }
+
+.browser-left {
+  position: absolute;
+  top: 230px;
+  left: 346px; }
+
+.browser-right {
+  position: absolute;
+  top: 230px;
+  right: 344px; }
+
+.browser-center {
+  position: absolute;
+  top: 148px;
+  left: 576px; }

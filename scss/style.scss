@@ -210,8 +210,75 @@ body {
     }
 }
 
-
-
 .services {
-    
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    a {
+        // Style for "Web & App"
+        width: 266px;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 17px;
+    }
+    svg {
+        // Style for "icon"
+        width: 49px;
+        height: 49px;
+        margin-bottom: 29px;
+        fill:#555;
+    }
+    h3 {
+        // Style for "Web & App"
+        width: 266px;
+        height: 21px;
+        color: #555;
+        font-family: "Raleway - Semi Bold";
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 19px;
+    }
+    p {
+        width: 266px;
+        height: 62px;
+        color: #8c8c8c;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    span {
+        // Style for "line"
+        width: 70px;
+        height: 3px;
+        background-color: #f1eee9;
+    }
+    & a:hover {
+        svg {
+//            stroke: #c7b299;
+            fill: #c7b299;
+        }
+        h3 {
+            color: #c7b299;
+        }
+        span {
+            background-color: #c7b299;
+        }
+    }
+    .active {
+        svg {
+            fill:#c7b299;
+        }
+        h3 {
+            color: #c7b299;
+        }
+        span {
+            background-color: #c7b299;
+        }
+    }
 }

@@ -174,3 +174,55 @@ body {
     height: 13px;
     border: 2px solid #d3c1ad;
     background-color: #fff; }
+
+.services {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center; }
+  .services a {
+    width: 266px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 17px; }
+  .services svg {
+    width: 49px;
+    height: 49px;
+    margin-bottom: 29px;
+    fill: #555; }
+  .services h3 {
+    width: 266px;
+    height: 21px;
+    color: #555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 19px; }
+  .services p {
+    width: 266px;
+    height: 62px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 30px; }
+  .services span {
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9; }
+  .services a:hover svg {
+    fill: #c7b299; }
+  .services a:hover h3 {
+    color: #c7b299; }
+  .services a:hover span {
+    background-color: #c7b299; }
+  .services .active svg {
+    fill: #c7b299; }
+  .services .active h3 {
+    color: #c7b299; }
+  .services .active span {
+    background-color: #c7b299; }

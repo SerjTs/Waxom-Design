@@ -228,40 +228,44 @@ body {
   .services .active span {
     background-color: #c7b299; }
 
-.Waxom_Realization {
-  width: 1920px;
-  position: relative; }
-  .Waxom_Realization h2 {
-    width: 500px;
-    color: #555;
+.Waxom_Realization h2 {
+  width: 500px;
+  color: #555;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 83px auto 24px auto; }
+.Waxom_Realization p {
+  width: 758px;
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: -0.2px;
+  margin-bottom: 40px; }
+
+.background_pictures {
+  width: 1230px;
+  height: 482px;
+  margin: auto;
+  background: url("pic/browser-center.jpg") top, url("pic/browser-left.jpg") left bottom, url("pic/browser-right.jpg") right bottom;
+  background-repeat: no-repeat; }
+
+.Text_Boxes {
+  background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%); }
+  .Text_Boxes h2 {
+    width: 530px;
+    height: 27px;
     font-family: Raleway;
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    margin: 83px auto 24px auto; }
-  .Waxom_Realization p {
-    width: 758px;
-    height: 43px;
-    color: #8c8c8c;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c7b299; }
+  .Text_Boxes p {
+    color: #615855;
     font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: center;
-    margin: 0 auto;
-    letter-spacing: -0.2px; }
-
-.browser-left {
-  position: absolute;
-  top: 230px;
-  left: 346px; }
-
-.browser-right {
-  position: absolute;
-  top: 230px;
-  right: 344px; }
-
-.browser-center {
-  position: absolute;
-  top: 148px;
-  left: 576px; }
+    font-size: 18px;
+    font-weight: 300; }

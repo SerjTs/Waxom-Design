@@ -30,7 +30,7 @@ body {
   text-decoration: none;
   width: 64px;
   height: 56px; }
-  .logotip p {
+  .logotip span {
     color: #fff;
     font-family: Raleway;
     font-size: 34px;

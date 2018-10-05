@@ -62,7 +62,16 @@ body {
   color: #c7b299; }
 
 .icon-cart {
-  margin-left: 40px; }
+  margin-left: 63px;
+  background-image: url(pic/icon-cart.png);
+  height: 24px;
+  background-repeat: no-repeat; }
+
+.icon-search {
+  margin-left: 20px;
+  background-image: url(pic/icon-search.png);
+  height: 24px;
+  background-repeat: no-repeat; }
 
 .header-textbox {
   width: 590px;

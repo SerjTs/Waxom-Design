@@ -239,24 +239,24 @@ body {
     background-color: #c7b299; }
 
 .Waxom_Realization h2 {
-  width: 500px;
   color: #555;
   font-family: Raleway;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
-  margin: 83px auto 24px auto; }
+  margin: 83px auto 24px auto;
+  width: 500px; }
 .Waxom_Realization p {
-  width: 758px;
   color: #8c8c8c;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
   text-align: center;
-  margin: 0 auto;
   letter-spacing: -0.2px;
-  margin-bottom: 40px; }
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 758px; }
 
 .background_pictures {
   width: 1230px;
@@ -311,3 +311,77 @@ body {
   border-bottom: 1px solid #212121;
   box-shadow: inset 0 -2px 0 #736357;
   margin-top: 51px; }
+
+.our_latest {
+  width: 1170px;
+  margin: 80px auto; }
+  .our_latest h2 {
+    color: #555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 83px auto 24px auto; }
+  .our_latest p {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 757px; }
+  .our_latest nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+  .our_latest a {
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    margin: 0 5px;
+    padding: 0 22px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none; }
+  .our_latest a:hover,
+  .our_latest .active {
+    background-color: #998675;
+    border: 1px solid #998675;
+    color: #fff; }
+
+.latest_projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between; }
+  .latest_projects .project {
+    width: 370px;
+    background-color: #fbfaf8; }
+  .latest_projects img {
+    width: 370px;
+    height: 237px; }
+  .latest_projects figcaption {
+    padding-bottom: 13px; }
+  .latest_projects h3 {
+    width: 370px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 28px 0 28px; }
+  .latest_projects span {
+    display: block;
+    width: 370px;
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 14px 28px; }

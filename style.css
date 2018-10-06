@@ -378,7 +378,7 @@ body {
   .latest_projects img {
     width: 370px;
     height: 237px; }
-  .latest_projects figcaption {
+  .latest_projects .img_desc {
     padding-bottom: 13px; }
   .latest_projects h3 {
     width: 370px;

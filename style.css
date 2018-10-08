@@ -377,16 +377,17 @@ body {
     background-color: #fbfaf8; }
   .latest_projects img {
     width: 370px;
-    height: 237px; }
+    height: 237px;
+    margin-bottom: -3px; }
   .latest_projects .img_desc {
-    padding-bottom: 13px; }
+    margin-bottom: 13px; }
   .latest_projects h3 {
     width: 370px;
     color: #c7b299;
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
-    margin: 30px 28px 0 28px; }
+    padding: 30px 28px 0 28px; }
   .latest_projects span {
     display: block;
     width: 370px;
@@ -395,7 +396,14 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    margin: 14px 28px; }
+    margin: 14px 28px;
+    padding-bottom: 27px; }
+
+.project:hover img {
+  filter: brightness(0.5); }
+.project:hover .img_desc {
+  background-color: #362f2d;
+  color: #fff; }
 
 .button_load_more {
   text-decoration: none;

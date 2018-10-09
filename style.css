@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Montserrat Ultra Light';
+  font-family: 'Montserrat-Ultra_Light';
   font-style: normal;
   font-weight: normal;
-  src: local("Montserrat Ultra Light"), url("Montserrat-UltraLight.woff") format("woff"); }
+  src: local("Montserrat-Ultra_Light"), url("fonts/Montserrat-UltraLight.woff") format("woff"); }
 * {
   margin: 0;
   padding: 0; }
@@ -472,7 +472,7 @@ body {
 
 .video_presentation {
   position: relative;
-  padding-top: 210px;
+  padding: 210px 0 157px;
   background-image: url("pic/circle.png");
   background-position: top 195px center;
   background-repeat: no-repeat; }
@@ -508,4 +508,103 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin: 40px auto;
+    text-align: center; }
+
+.Excellent_for_Mobile {
+  background-image: url("pic/iPhone_in_hand.jpg");
+  background-position: top 79px left 423px;
+  background-repeat: no-repeat;
+  min-height: 695px;
+  padding-top: 195px;
+  margin-bottom: -233px; }
+  .Excellent_for_Mobile h2 {
+    color: #555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 83px auto 24px auto;
+    width: 657px;
+    text-align: left;
+    margin: 0 auto 24px 877px; }
+  .Excellent_for_Mobile p {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 657px;
+    text-align: left;
+    margin-left: 877px; }
+  .Excellent_for_Mobile ul {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 657px;
+    text-align: left;
+    margin-left: 925px; }
+  .Excellent_for_Mobile li {
+    list-style: none;
+    background: url("pic/ul_sprite.svg") no-repeat 0 3px;
+    padding-left: 55px; }
+
+.counters {
+  width: 1920px;
+  height: 300px;
+  background-color: #f4f5f8;
+  background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .counters svg {
+    fill: #c7b299;
+    height: 44px;
+    margin: 0 auto; }
+  .counters .counter_box {
+    width: 140px;
+    min-height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 37px; }
+  .counters .counter_box:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+    align-self: flex-end; }
+  .counters .counter_box:hover:after {
+    background-color: #c7b299; }
+  .counters .counter_box:hover .count_digi {
+    color: #c7b299; }
+  .counters .count_digi {
+    width: 105px;
+    color: #fff;
+    font-family: Montserrat-Ultra_Light;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center; }
+  .counters .descr_count {
+    width: 140px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
     text-align: center; }

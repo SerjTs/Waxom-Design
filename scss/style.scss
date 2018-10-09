@@ -683,3 +683,58 @@ body {
         text-align: center;
     }
 }
+.Recent_Posts {
+    width: 1170px;
+    margin: 0 auto;
+    h2 {
+        @include h2_Raleway-Semi-Bold;
+        width: 757px;
+        text-align: center;
+//        margin: 0 auto 24px 877px;
+    }
+    p {
+        @include p_Montserrat_16px;
+        width: 757px;
+        text-align: center;
+//        margin-left: 877px;
+    }
+    .box_post {
+        width: 370px;
+        height: 395px;
+        h3 {
+            // Style for "Lorem ipsu"
+            color: #555;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 30px 30px 20px;
+        }
+        span {
+            display: block;
+            color: #8c8c8c;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            margin: 0 30px 20px;
+        }
+        a {
+            // Style for "Read More"
+            color: #c7b299;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            text-decoration: none;
+            margin: 0 30px 20px;
+        }
+        svg {
+            margin-left: 9px;
+        }
+    }
+}
+.box_container  {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}

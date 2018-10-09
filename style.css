@@ -374,20 +374,31 @@ body {
   align-content: space-between; }
   .latest_projects .project {
     width: 370px;
-    background-color: #fbfaf8; }
+    background-color: #fbfaf8;
+    margin-bottom: 15px;
+    position: relative; }
   .latest_projects img {
     width: 370px;
     height: 237px;
-    margin-bottom: -3px; }
+    margin-bottom: -4px; }
   .latest_projects .img_desc {
-    margin-bottom: 13px; }
+    padding: 20px;
+    position: relative;
+    color: #fff; }
+  .latest_projects .img_desc::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: -35px;
+    border: 25px solid transparent;
+    border-bottom: 20px solid white; }
   .latest_projects h3 {
     width: 370px;
     color: #c7b299;
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
-    padding: 30px 28px 0 28px; }
+    padding: 20px 28px 0 28px; }
   .latest_projects span {
     display: block;
     width: 370px;
@@ -396,14 +407,32 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    margin: 14px 28px;
-    padding-bottom: 27px; }
+    margin: 14px 28px; }
+  .latest_projects .link_svg,
+  .latest_projects .lupa_svg {
+    position: absolute;
+    top: 106px;
+    fill: #fff;
+    visibility: hidden; }
+  .latest_projects .link_svg {
+    left: 144px; }
+  .latest_projects .lupa_svg {
+    left: 198px; }
 
 .project:hover img {
   filter: brightness(0.5); }
 .project:hover .img_desc {
   background-color: #362f2d;
   color: #fff; }
+.project:hover .img_desc::after {
+  border-bottom: 20px solid #362f2d; }
+.project:hover .link_svg,
+.project:hover .lupa_svg {
+  visibility: visible; }
+
+.link_svg:hover,
+.lupa_svg:hover {
+  fill: #c7b299; }
 
 .button_load_more {
   text-decoration: none;

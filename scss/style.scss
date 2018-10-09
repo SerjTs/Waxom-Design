@@ -443,15 +443,26 @@ body {
     .project {
         width: 370px;
         background-color: #fbfaf8;
+        margin-bottom: 15px;
+        position: relative;
     }
     img {
         width: 370px;
         height: 237px;
-        margin-bottom: -3px;
+        margin-bottom: -4px;
     }
     .img_desc {
-        margin-bottom: 13px;
-    }
+        padding: 20px;
+        position: relative;
+        color: #fff;
+   }
+    .img_desc::after {
+        content: ''; 
+        position: absolute;
+        left: 10px; top: -35px;
+        border: 25px solid transparent; 
+        border-bottom: 20px solid white;
+   }
     h3 {
         // Style for "Claritas E"
         width: 370px;
@@ -459,7 +470,7 @@ body {
         font-family: Raleway;
         font-size: 20px;
         font-weight: 500;
-        padding: 30px 28px 0 28px;
+        padding: 20px 28px 0 28px;
     }
     span {
         // Style for "Photograph"
@@ -471,7 +482,20 @@ body {
         font-weight: 300;
         line-height: 20px;
         margin: 14px 28px;
-        padding-bottom: 27px;
+    }
+    .link_svg,
+    .lupa_svg{
+        position: absolute;
+        top: 106px;
+        fill:#fff;
+        visibility: hidden;
+    }
+    .link_svg, {
+        left: 144px;
+    }
+
+    .lupa_svg{
+        left: 198px;
     }
 }
 .project:hover {
@@ -482,8 +506,19 @@ body {
         background-color: #362f2d;
         color: #fff;
         }
+    .img_desc::after {
+        border-bottom: 20px solid #362f2d;
+    }
+    .link_svg,
+    .lupa_svg{
+        visibility: visible;
+    }
 }
 
+.link_svg:hover,
+.lupa_svg:hover{
+            fill:#c7b299;
+}
 .button_load_more {
     @include button;
     margin: 40px auto 80px auto;

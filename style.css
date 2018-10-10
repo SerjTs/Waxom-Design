@@ -635,7 +635,8 @@ body {
     text-align: center; }
   .Recent_Posts .box_post {
     width: 370px;
-    height: 395px; }
+    height: 395px;
+    position: relative; }
     .Recent_Posts .box_post h3 {
       color: #555;
       font-family: Raleway;
@@ -650,7 +651,7 @@ body {
       font-weight: 300;
       line-height: 22px;
       margin: 0 30px 20px; }
-    .Recent_Posts .box_post a {
+    .Recent_Posts .box_post .read_more {
       color: #c7b299;
       font-family: Montserrat;
       font-size: 14px;
@@ -660,8 +661,89 @@ body {
       margin: 0 30px 20px; }
     .Recent_Posts .box_post svg {
       margin-left: 9px; }
+    .Recent_Posts .box_post:hover {
+      background-color: #362f2d; }
+      .Recent_Posts .box_post:hover .box_img {
+        filter: brightness(0.5); }
+      .Recent_Posts .box_post:hover h3 {
+        color: #c7b299; }
+      .Recent_Posts .box_post:hover span {
+        color: #fff; }
+      .Recent_Posts .box_post:hover .box_calendar_top {
+        background-color: #c7b299; }
+      .Recent_Posts .box_post:hover .box_calendar_bottom {
+        background-color: #a48d72; }
 
 .box_container {
   display: flex;
   justify-content: space-between;
   width: 1170px; }
+  .box_container .box_calendar_top {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 35px;
+    border-radius: 3px 3px 0 0;
+    background-color: #363636;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center; }
+  .box_container .box_calendar_bottom {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    width: 50px;
+    height: 25px;
+    border-radius: 0 0 3px 3px;
+    background-color: #252525;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center; }
+  .box_container .box_post_slider {
+    display: flex;
+    position: absolute;
+    top: 185px;
+    width: 370px;
+    justify-content: center;
+    align-items: center; }
+  .box_container .box_circle {
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.3; }
+  .box_container .box_circle:hover {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #d3c1ad;
+    background-color: #212121; }
+  .box_container .box_circle_active {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d3c1ad;
+    background-color: #212121; }
+    .box_container .box_circle_active:hover {
+      width: 15px;
+      height: 15px;
+      border: 2px solid #d3c1ad;
+      background-color: #fff; }
+
+.box_container_arrows {
+  display: flex;
+  justify-content: center; }
+  .box_container_arrows svg {
+    margin: 40px 4px 80px;
+    fill: #d1d1d1; }
+  .box_container_arrows svg:hover {
+    fill: #c7b299; }

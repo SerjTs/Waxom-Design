@@ -872,4 +872,37 @@ body {
 .copiright_footer {
   width: 1920px;
   min-height: 111px;
-  background-color: #111; }
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .copiright_footer a {
+    text-decoration: none; }
+  .copiright_footer a:hover {
+    color: #c7b299; }
+  .copiright_footer .copyright,
+  .copiright_footer .privacy_policy,
+  .copiright_footer .support,
+  .copiright_footer .designet {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px; }
+  .copiright_footer .copyright {
+    margin-left: 376px; }
+  .copiright_footer .designet {
+    margin-right: 374px; }
+  .copiright_footer .waxom,
+  .copiright_footer .theme_fire,
+  .copiright_footer .evnato {
+    color: #959595; }
+  .copiright_footer .faq {
+    color: #c7b299; }
+  .copiright_footer .waxom,
+  .copiright_footer .privacy_policy,
+  .copiright_footer .faq,
+  .copiright_footer .theme_fire {
+    border-right: 1px solid #252525;
+    padding-right: 12px;
+    margin-right: 8px; }

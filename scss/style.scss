@@ -985,4 +985,46 @@ body {
     width: $main-width;
     min-height: 111px;
     background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: #c7b299;
+    }
+    .copyright,
+    .privacy_policy,
+    .support,
+    .designet{
+        // Style for "Copyright"
+        color: #555;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 13px;
+    }
+    .copyright {
+        margin-left: 376px;
+    }
+    .designet{
+        margin-right: 374px;
+    }
+    .waxom,
+    .theme_fire,
+    .evnato {
+        color: #959595;
+    }
+    .faq {
+        color: #c7b299;
+    }
+    .waxom,
+    .privacy_policy,
+    .faq,
+    .theme_fire {
+        border-right: 1px solid #252525;
+        padding-right: 12px;
+        margin-right: 8px;
+    }
 }

@@ -763,7 +763,111 @@ body {
 .up_footer {
   width: 1920px;
   min-height: 508px;
-  background-color: #191919; }
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.waxom_column {
+  width: 260px;
+  margin-right: 42px; }
+  .waxom_column .logo-text {
+    margin-top: 15px; }
+  .waxom_column p {
+    display: block;
+    color: #555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 29px 0 33px;
+    letter-spacing: -0.2px; }
+  .waxom_column a {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none; }
+  .waxom_column a:hover {
+    color: #c7b299; }
+    .waxom_column a:hover .svg_link {
+      fill: #c7b299; }
+  .waxom_column .svg_link {
+    margin-left: 9px;
+    fill: #d1d1d1; }
+
+.recent_posts,
+.our_twitter {
+  width: 270px; }
+  .recent_posts h2,
+  .our_twitter h2 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px; }
+  .recent_posts .post,
+  .our_twitter .post {
+    text-decoration: none;
+    display: block; }
+  .recent_posts h3,
+  .our_twitter h3 {
+    color: #363636;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 10px 0 10px; }
+  .recent_posts p,
+  .our_twitter p {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 11px; }
+  .recent_posts .post_active,
+  .recent_posts .post_bordered,
+  .our_twitter .post_active,
+  .our_twitter .post_bordered {
+    border-top: 2px solid #252525;
+    border-bottom: 2px solid #252525; }
+  .recent_posts a:hover h3,
+  .recent_posts .post_active h3,
+  .our_twitter a:hover h3,
+  .our_twitter .post_active h3 {
+    color: #fff; }
+  .recent_posts a:hover p,
+  .recent_posts .post_active p,
+  .our_twitter a:hover p,
+  .our_twitter .post_active p {
+    color: #c7b299; }
+
+.our_twitter {
+  margin: 0 30px; }
+  .our_twitter p {
+    margin-top: 17px; }
+  .our_twitter .blue_text {
+    color: #00bff3; }
+  .our_twitter .gray_text {
+    color: #959595; }
+
+.dribbble_widget h2 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 22px; }
+.dribbble_widget .dribbble_slides_box {
+  width: 276px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between; }
+.dribbble_widget img {
+  margin: 3px; }
 
 .copiright_footer {
   width: 1920px;

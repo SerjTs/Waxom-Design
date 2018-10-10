@@ -860,7 +860,127 @@ body {
     width: $main-width;
     min-height: 508px;
     background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+ .waxom_column {
+    width: 260px;
+    margin-right: 42px; 
+    .logo-text {
+        margin-top: 15px;
+    }
+    p {
+        display: block;
+        color: #555;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 29px 0 33px;
+        letter-spacing: -0.2px;
+    }
+    a {
+        // Style for "Read More"
+        color: #d1d1d1;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #c7b299;
+        .svg_link {
+            fill:#c7b299;
+        }
+    }
+    .svg_link {
+        margin-left: 9px;
+        fill:#d1d1d1;
+    }
+}
+.recent_posts,
+.our_twitter {
+    width: 270px;
+    h2 {
+        // Style for "Recent Pos"
+        color: #fff;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 45px;
+    }
+    .post {
+        text-decoration: none;
+        display: block;
+    }
+    h3 {
+    // Style for "September"
+        color: #363636;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        margin: 10px 0 10px;
+    }
+    p {
+        // Style for "Lorem ipsu"
+        color: #555;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-bottom: 11px;
+    }
+    .post_active,
+    .post_bordered{
+        border-top: 2px solid #252525;
+        border-bottom: 2px solid #252525;
+    }
+    a:hover,
+    .post_active {
+        h3 {
+            color: #fff;
+        }
+        p {
+            color: #c7b299; 
+        }
+    }
+}
+.our_twitter {
+    margin: 0 30px;
+    p {
+        margin-top: 17px;
+    }
+    .blue_text {
+        color: #00bff3;
+    }
+    .gray_text {
+        color: #959595;
+    }
+}
+.dribbble_widget {
+    h2 {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: -10px;
+        margin-bottom: 22px;
+    }
+    .dribbble_slides_box {
+        width: 276px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    img {
+        margin: 3px;
+    }
+}
+
 .copiright_footer {
     width: $main-width;
     min-height: 111px;

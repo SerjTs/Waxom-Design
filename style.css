@@ -747,3 +747,25 @@ body {
     fill: #d1d1d1; }
   .box_container_arrows svg:hover {
     fill: #c7b299; }
+
+.partners_logos {
+  width: 1920px;
+  height: 489px;
+  background-image: url("pic/photo_under_logos.jpg");
+  box-shadow: inset 0px 0px 0px 1024px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .partners_logos a {
+    margin: 0 45px; }
+
+.up_footer {
+  width: 1920px;
+  min-height: 508px;
+  background-color: #191919; }
+
+.copiright_footer {
+  width: 1920px;
+  min-height: 111px;
+  background-color: #111; }

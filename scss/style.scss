@@ -842,3 +842,27 @@ body {
         fill:#c7b299;
     }
 }
+.partners_logos {
+    // Style for "photo"
+    width: $main-width;
+    height: 489px;
+    background-image: url("pic/photo_under_logos.jpg");
+    box-shadow: inset 0px 0px 0px 1024px rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        margin: 0 45px;
+    }
+}
+.up_footer {
+    width: $main-width;
+    min-height: 508px;
+    background-color: #191919;
+}
+.copiright_footer {
+    width: $main-width;
+    min-height: 111px;
+    background-color: #111;
+}

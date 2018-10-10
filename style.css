@@ -63,24 +63,27 @@ body {
       font-size: 14px;
       font-weight: 300;
       margin-left: 30px; }
+    .menu li svg {
+      fill: #fff; }
     .menu li a:hover {
       color: #c7b299; }
+      .menu li a:hover svg {
+        fill: #c7b299; }
     .menu li a:active {
       color: #b79c7b;
       top: 2px; }
+      .menu li a:active svg {
+        fill: #c7b299; }
 
 .menu .active {
   color: #c7b299; }
 
 .icon-cart {
-  margin-left: 63px;
-  background-image: url(pic/icon-cart.png);
+  margin-left: 33px;
   height: 24px;
   background-repeat: no-repeat; }
 
 .icon-search {
-  margin-left: 20px;
-  background-image: url(pic/icon-search.png);
   height: 24px;
   background-repeat: no-repeat; }
 

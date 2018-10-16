@@ -215,6 +215,7 @@ input[type="checkbox"]:checked ~ .menu {
 .services {
   margin-top: 80px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; }
   .services a {
     width: 266px;
@@ -961,5 +962,29 @@ input[type="checkbox"]:checked ~ .menu {
 
   .header-textbox,
   .arrow,
-  .slides {
-    display: none; } }
+  .slides,
+  .Waxom_Realization,
+  .Text_Boxes,
+  .our_latest nav,
+  .button_load_more,
+  .latest_projects {
+    display: none; }
+
+  .services {
+    margin-top: 50px; }
+
+  .services a {
+    margin: 0 5px 50px; }
+
+  .our_latest {
+    margin: 10px auto;
+    width: 90%; }
+    .our_latest p {
+      width: 100%; }
+    .our_latest h2 {
+      margin-top: 0; }
+
+  .video_presentation h2 {
+    width: 90%; }
+  .video_presentation p {
+    width: 99%; } }

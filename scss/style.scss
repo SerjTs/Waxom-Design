@@ -287,6 +287,7 @@ input[type="checkbox"]:checked ~ .menu {
 .services {
     margin-top: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     a {
         // Style for "Web & App"
@@ -1065,7 +1066,6 @@ input[type="checkbox"]:checked ~ .menu {
         position: absolute;
         top: 45px;
         right: 3%;
-        
     }
     .navigation {
         flex-direction: column;
@@ -1092,8 +1092,37 @@ input[type="checkbox"]:checked ~ .menu {
     }
     .header-textbox,
     .arrow,
-    .slides {
+    .slides,
+    .Waxom_Realization,
+    .Text_Boxes,
+    .our_latest nav,
+    .button_load_more,
+    .latest_projects {
         display: none;
     }
+    .services {
+        margin-top: 50px;
+    }
+    .services a {
+        margin: 0 5px 50px;
+    }
+    .our_latest {
+        margin: 10px auto;
+        width: 90%;
+        p {
+            width: 100%
+        }
+        h2 {
+            margin-top: 0;
+        }
+    }
+    .video_presentation {
+        h2 {
+            width: 90%;
+        }
+        p {
+            width: 99%;
+        }
+    } 
     
 }

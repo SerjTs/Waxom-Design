@@ -18,6 +18,19 @@ body {
   height: 1024px;
   position: relative; }
 
+label {
+  width: 55px;
+  height: 55px;
+  display: none;
+  background-image: url("pic/menu_burger.png");
+  background-size: 100%; }
+
+#menu {
+  visibility: hidden; }
+
+input[type="checkbox"]:checked ~ .menu {
+  visibility: visible; }
+
 .navigation {
   padding-top: 40px;
   margin: 0 auto;
@@ -908,3 +921,45 @@ body {
     border-right: 1px solid #252525;
     padding-right: 12px;
     margin-right: 8px; }
+
+@media (max-width: 575.98px) {
+  body {
+    width: 100%; }
+
+  .header {
+    height: 50%;
+    background-size: cover; }
+
+  label {
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 3%; }
+
+  .navigation {
+    flex-direction: column;
+    width: 80%;
+    position: relative; }
+
+  .logotip {
+    margin-left: 3%; }
+
+  .menu {
+    visibility: hidden;
+    flex-direction: column;
+    margin: 10px auto 40px; }
+
+  .menu li {
+    margin-top: 15px; }
+
+  .icon-cart {
+    margin-left: 0; }
+
+  .menu .icon-search {
+    margin-left: 40px;
+    margin-top: -22px; }
+
+  .header-textbox,
+  .arrow,
+  .slides {
+    display: none; } }

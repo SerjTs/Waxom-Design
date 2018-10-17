@@ -1100,7 +1100,8 @@ input[type="checkbox"]:checked ~ .menu {
     .Text_Boxes,
     .our_latest nav,
     .button_load_more,
-    .latest_projects {
+    .latest_projects,
+    .counters {
         display: none;
     }
     .services {
@@ -1108,13 +1109,6 @@ input[type="checkbox"]:checked ~ .menu {
     }
     .services a {
         margin: 0 5px 50px;
-    }
-    p {
-         width: 99%;
-    }
-    h2 {
-        margin-top: 0;
-        width: 90%;
     }
     .our_latest {
         margin: 10px auto;
@@ -1127,6 +1121,9 @@ input[type="checkbox"]:checked ~ .menu {
         p {
             width: 99%;
         }
+        h2 {
+            width: 90%;
+        }
     }
     .background_pic {
         width: 100%;
@@ -1134,8 +1131,10 @@ input[type="checkbox"]:checked ~ .menu {
         background-size: cover;   
     } 
     .Excellent_for_Mobile {
-        background-position: bottom 41% left 10%;
-        background-size: 54%;
+        min-height: 100%;
+        margin-bottom: 0;
+        background-position: bottom 0% left 8%;
+        background-size: 36%;
         h2 {
             width: 80%;
             margin: -188px auto 20px;
@@ -1147,6 +1146,25 @@ input[type="checkbox"]:checked ~ .menu {
         ul {
             width: 90%;
             margin-left: 55%;
+            margin-top: 5%;
+            font-size: 12px;
+//            letter-spacing: -0.4px;
+            display: block;
+        }
+        li {
+            width: 35%;
+            padding-left: 10%;
+        }
+    }
+    .Recent_Posts {
+        width: 100%;
+        h2 {
+            width: 90%;
+            margin: 0 auto;
+        }
+        p {
+            width: 90%;
+            margin: 5% auto;
         }
     }
 }

@@ -970,7 +970,8 @@ input[type="checkbox"]:checked ~ .menu {
   .Text_Boxes,
   .our_latest nav,
   .button_load_more,
-  .latest_projects {
+  .latest_projects,
+  .counters {
     display: none; }
 
   .services {
@@ -978,13 +979,6 @@ input[type="checkbox"]:checked ~ .menu {
 
   .services a {
     margin: 0 5px 50px; }
-
-  p {
-    width: 99%; }
-
-  h2 {
-    margin-top: 0;
-    width: 90%; }
 
   .our_latest {
     margin: 10px auto;
@@ -994,6 +988,8 @@ input[type="checkbox"]:checked ~ .menu {
 
   .video_presentation p {
     width: 99%; }
+  .video_presentation h2 {
+    width: 90%; }
 
   .background_pic {
     width: 100%;
@@ -1001,8 +997,10 @@ input[type="checkbox"]:checked ~ .menu {
     background-size: cover; }
 
   .Excellent_for_Mobile {
-    background-position: bottom 41% left 10%;
-    background-size: 54%; }
+    min-height: 100%;
+    margin-bottom: 0;
+    background-position: bottom 0% left 8%;
+    background-size: 36%; }
     .Excellent_for_Mobile h2 {
       width: 80%;
       margin: -188px auto 20px; }
@@ -1011,4 +1009,19 @@ input[type="checkbox"]:checked ~ .menu {
       margin: 0 auto; }
     .Excellent_for_Mobile ul {
       width: 90%;
-      margin-left: 55%; } }
+      margin-left: 55%;
+      margin-top: 5%;
+      font-size: 12px;
+      display: block; }
+    .Excellent_for_Mobile li {
+      width: 35%;
+      padding-left: 10%; }
+
+  .Recent_Posts {
+    width: 100%; }
+    .Recent_Posts h2 {
+      width: 90%;
+      margin: 0 auto; }
+    .Recent_Posts p {
+      width: 90%;
+      margin: 5% auto; } }

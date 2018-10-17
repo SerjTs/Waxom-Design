@@ -1090,6 +1090,9 @@ input[type="checkbox"]:checked ~ .menu {
         margin-left: 40px;
         margin-top: -22px;
     }
+    .our_latest h2 {
+        margin-top: 15px;
+    }
     .header-textbox,
     .arrow,
     .slides,
@@ -1106,23 +1109,44 @@ input[type="checkbox"]:checked ~ .menu {
     .services a {
         margin: 0 5px 50px;
     }
+    p {
+         width: 99%;
+    }
+    h2 {
+        margin-top: 0;
+        width: 90%;
+    }
     .our_latest {
         margin: 10px auto;
         width: 90%;
         p {
-            width: 100%
-        }
-        h2 {
-            margin-top: 0;
+             width: 99%;
         }
     }
     .video_presentation {
-        h2 {
-            width: 90%;
-        }
         p {
             width: 99%;
         }
+    }
+    .background_pic {
+        width: 100%;
+        height: 95%;
+        background-size: cover;   
     } 
-    
+    .Excellent_for_Mobile {
+        background-position: bottom 41% left 10%;
+        background-size: 54%;
+        h2 {
+            width: 80%;
+            margin: -188px auto 20px;
+        }
+        p {
+            width: 90%;
+            margin: 0 auto;
+        }
+        ul {
+            width: 90%;
+            margin-left: 55%;
+        }
+    }
 }

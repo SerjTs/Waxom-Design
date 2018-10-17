@@ -138,6 +138,7 @@ input[type="checkbox"]:checked ~ .menu {
         }
         svg {
             fill:#fff;
+            height: 24px;
         }
         a:hover {
             color: #c7b299;
@@ -512,6 +513,7 @@ input[type="checkbox"]:checked ~ .menu {
         top: 106px;
         fill:#fff;
         visibility: hidden;
+        width: 26px;
     }
     .link_svg, {
         left: 144px;
@@ -578,6 +580,7 @@ input[type="checkbox"]:checked ~ .menu {
         display: block;
         fill:#fff;
         margin: auto;
+        width: 70px;
     }
     h2 {
         // Style for "Waxom Vide"
@@ -860,6 +863,7 @@ input[type="checkbox"]:checked ~ .menu {
     svg {
         margin: 40px 4px 80px;
         fill:#d1d1d1;
+        width: 22px;
     }
     svg:hover {
         fill:#c7b299;
@@ -921,6 +925,7 @@ input[type="checkbox"]:checked ~ .menu {
     .svg_link {
         margin-left: 9px;
         fill:#d1d1d1;
+        width: 5px;
     }
 }
 .recent_posts,

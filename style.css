@@ -77,7 +77,8 @@ input[type="checkbox"]:checked ~ .menu {
       font-weight: 300;
       margin-left: 30px; }
     .menu li svg {
-      fill: #fff; }
+      fill: #fff;
+      height: 24px; }
     .menu li a:hover {
       color: #c7b299; }
       .menu li a:hover svg {
@@ -430,7 +431,8 @@ input[type="checkbox"]:checked ~ .menu {
     position: absolute;
     top: 106px;
     fill: #fff;
-    visibility: hidden; }
+    visibility: hidden;
+    width: 26px; }
   .latest_projects .link_svg {
     left: 144px; }
   .latest_projects .lupa_svg {
@@ -498,7 +500,8 @@ input[type="checkbox"]:checked ~ .menu {
   .video_presentation svg {
     display: block;
     fill: #fff;
-    margin: auto; }
+    margin: auto;
+    width: 70px; }
   .video_presentation h2 {
     width: 552px;
     color: #fff;
@@ -760,7 +763,8 @@ input[type="checkbox"]:checked ~ .menu {
   justify-content: center; }
   .box_container_arrows svg {
     margin: 40px 4px 80px;
-    fill: #d1d1d1; }
+    fill: #d1d1d1;
+    width: 22px; }
   .box_container_arrows svg:hover {
     fill: #c7b299; }
 
@@ -811,7 +815,8 @@ input[type="checkbox"]:checked ~ .menu {
       fill: #c7b299; }
   .waxom_column .svg_link {
     margin-left: 9px;
-    fill: #d1d1d1; }
+    fill: #d1d1d1;
+    width: 5px; }
 
 .recent_posts,
 .our_twitter {

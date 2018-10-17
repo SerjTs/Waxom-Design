@@ -1101,7 +1101,8 @@ input[type="checkbox"]:checked ~ .menu {
     .our_latest nav,
     .button_load_more,
     .latest_projects,
-    .counters {
+    .counters,
+    .up_footer {
         display: none;
     }
     .services {
@@ -1171,6 +1172,9 @@ input[type="checkbox"]:checked ~ .menu {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .box_container_arrows svg {
+                margin: 25px 4px 40px;
+    }
     .partners_logos {
         width: 100%;
         height: 150px;
@@ -1183,6 +1187,17 @@ input[type="checkbox"]:checked ~ .menu {
         img {
             width: 75%;
             margin: auto;
+        }
+    }
+    .copiright_footer {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        .copyright,
+        .designet {
+            margin: 10px auto;
+            display: block;
         }
     }
 }

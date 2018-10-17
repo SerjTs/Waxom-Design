@@ -1167,4 +1167,9 @@ input[type="checkbox"]:checked ~ .menu {
             margin: 5% auto;
         }
     }
+    .box_container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

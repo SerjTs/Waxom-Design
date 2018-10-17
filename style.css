@@ -1024,4 +1024,9 @@ input[type="checkbox"]:checked ~ .menu {
       margin: 0 auto; }
     .Recent_Posts p {
       width: 90%;
-      margin: 5% auto; } }
+      margin: 5% auto; }
+
+  .box_container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; } }

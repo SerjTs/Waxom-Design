@@ -1029,4 +1029,16 @@ input[type="checkbox"]:checked ~ .menu {
   .box_container {
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center; } }
+    justify-content: center; }
+
+  .partners_logos {
+    width: 100%;
+    height: 150px;
+    background-size: cover; }
+    .partners_logos a {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+    .partners_logos img {
+      width: 75%;
+      margin: auto; } }

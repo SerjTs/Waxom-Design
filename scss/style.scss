@@ -1248,7 +1248,7 @@ input[type="checkbox"]:checked ~ .menu {
         min-height: 100%;
         margin-bottom: 0;
         background-position: bottom 0% left 8%;
-        background-size: 36%;
+        background-size: 35%;
         h2 {
             width: 80%;
             margin: -188px auto 20px;
@@ -1258,14 +1258,14 @@ input[type="checkbox"]:checked ~ .menu {
             margin: 0 auto;
         }
         ul {
-            width: 90%;
+            width: 44%;
             margin-left: 55%;
             margin-top: 5%;
             font-size: 12px;
             display: block;
         }
         li {
-            width: 35%;
+            width: 85%;
             padding-left: 10%;
         }
     }

@@ -98,10 +98,10 @@ label {
   background-size: 100%; }
 
 #menu {
-  visibility: hidden; }
+  display: none; }
 
 input[type="checkbox"]:checked ~ .menu {
-  visibility: visible; }
+  display: flex; }
 
 .navigation {
   padding-top: 40px;
@@ -727,7 +727,8 @@ input[type="checkbox"]:checked ~ .menu {
   .Recent_Posts .box_post {
     width: 370px;
     height: 395px;
-    position: relative; }
+    position: relative;
+    margin: 20px 0; }
     .Recent_Posts .box_post h3 {
       color: #555;
       font-family: Raleway;
@@ -1005,7 +1006,8 @@ input[type="checkbox"]:checked ~ .menu {
     width: 100%; }
 
   .header {
-    height: 50%;
+    height: auto;
+    min-height: 140px;
     background-size: cover; }
 
   label {
@@ -1023,7 +1025,7 @@ input[type="checkbox"]:checked ~ .menu {
     margin-left: 3%; }
 
   .menu {
-    visibility: hidden;
+    display: none;
     flex-direction: column;
     margin: 10px auto 40px; }
 

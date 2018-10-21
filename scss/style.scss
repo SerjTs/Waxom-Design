@@ -180,11 +180,13 @@ label {
 }
 
 #menu {
-  visibility: hidden;
+//  visibility: hidden;
+    display: none
 }
 
 input[type="checkbox"]:checked ~ .menu {
-  visibility: visible;
+//  visibility: visible;
+    display: flex;
 }
 .navigation {
     padding-top: 40px;
@@ -836,6 +838,7 @@ input[type="checkbox"]:checked ~ .menu {
         width: 370px;
         height: 395px;
         position: relative;
+        margin: 20px 0;
 
         h3 {
             // Style for "Lorem ipsu"
@@ -1171,7 +1174,8 @@ input[type="checkbox"]:checked ~ .menu {
         width: 100%;
     }
     .header {
-        height: 50%;
+        height: auto;
+        min-height: 140px;
         background-size: cover;
     }
     label {
@@ -1189,7 +1193,7 @@ input[type="checkbox"]:checked ~ .menu {
         margin-left: 3%;
     }
     .menu {
-        visibility: hidden;
+        display: none;
         flex-direction: column;
         margin: 10px auto 40px;
     }
